@@ -1,1 +1,1 @@
-# criando repositório para diciplina de Programação de Script
+# Repositório para diciplina de Programação de Script
