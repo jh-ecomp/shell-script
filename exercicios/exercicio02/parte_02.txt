@@ -1,3 +1,4 @@
+# (revista)|(revistas)
 revista|revistas
 (l|L)(e|E)(t|T)(r|R)(a|A)
 (+|-)?[1-9][[:digit:]]*[[:space]]
