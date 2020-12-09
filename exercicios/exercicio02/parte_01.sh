@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Correção: 1,0
 grep -E '[[:digit:]]{6}[[:space:]]*A' /home/compartilhado/emailsordenados.txt
 
 grep -E '\bA' /home/compartilhado/emailsordenados.txt
