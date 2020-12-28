@@ -1,4 +1,5 @@
 #!/bin/bash
+# Correção: 1,0
 
 sed -ri 's:/bin/python:/usr/bin/python3:' /home/compartilhado/atividade04.py
 
