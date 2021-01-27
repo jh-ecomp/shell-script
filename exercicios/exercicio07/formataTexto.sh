@@ -1,4 +1,5 @@
 #!/bin/bash
+# Correção: 0,5
 
 OPTION=$1
 COLOR=$2
