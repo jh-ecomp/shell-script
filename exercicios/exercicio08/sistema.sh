@@ -1,4 +1,5 @@
 #!/bin/bash
+# Correção: 1,0
 
 trap "echo \"até mais...\"; exit ; " 2
 
