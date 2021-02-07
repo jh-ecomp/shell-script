@@ -1,4 +1,6 @@
+# Correção: 1,0
 FILE=
+
 read -p "Informe o arquivo:" FILE
 
 declare -A DICT
