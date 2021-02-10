@@ -1,3 +1,4 @@
+#Correção: OK
 {
 	a = $NF
 	split(a, v, "@")
