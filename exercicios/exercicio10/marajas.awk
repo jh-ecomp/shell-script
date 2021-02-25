@@ -3,19 +3,18 @@ $1 != "NOME"{
     CURSO = $2
     SALARIO = $3
 
-    SALARIOS[PROFESSOR] = SALARIO
+    PROFESSORES[PROFESSOR] = SALARIO
 
     if(CURSOS[CURSO] == ""){
         CURSOS[CURSO] = PROFESSOR
-    }
-    else{ 
-        if(SALARIOS[CURSOs[CURSO]] < SALARIO){
+    }else{ 
+        if(PROFESSORES[CURSOS[CURSO]] < SALARIO){
             CURSOS[CURSO] = PROFESSOR
         }
     }
 }
 END {
     for (CURSO in CURSOS){
-        printf "%s: %s, %d\n", CURSO, CURSOS[CURSO], SALARIOS[CURSOS[CURSO]]
+        printf "%s: %s, %d\n", CURSO, CURSOS[CURSO], PROFESSORES[CURSOS[CURSO]]
     }
 }
