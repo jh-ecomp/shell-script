@@ -1,3 +1,4 @@
+# Retirou os :, deixando arquivo inadequado para o sistema.
 BEGIN {
 	FS=":"
 }
