@@ -43,6 +43,7 @@ EOF
 
 chmod 744 /usr/local/bin/atividade.sh
 
+# Por que você colocou um aspas ao final de default.target? Isso fez com que sua solução não funcioasse.
 cat << \EOF > /etc/systemd/system/my-script.service
 [Unit]
 After=network.target
